@@ -13,21 +13,23 @@ export default function Titulo() {
         <section className={styles.featured}>
           <h2>Conquistas Principais</h2>
           <div className={styles.featuredTrophies}>
-           <Card ano ={2012} capa={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"} detalhes={"Corinthians 1 x 0 Chelsea"} textAlt={"Troféu do mundial interclubes 2012"} titulo={"Mundial de clubes fifa"} />
-            <div className={styles.trophy}>
-              <div className={styles.trophyCover}>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"
-                  alt="Troféu da Copa Libertadores da América 2012"
-                />
-              </div>
-              <div className={styles.trophyInfo}>
-                <h3>Copa Libertadores da América</h3>
-                <p className={styles.year}>2012</p>
-                <p className={styles.details}>Corinthians 2 x 0 Boca Juniors</p>
-                <button className={styles.detailsButton}>Ver Detalhes</button>
-              </div>
-            </div>
+           <Card ano ={2012} capa={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"} 
+           detalhes={"Corinthians 1 x 0 Chelsea"} 
+           textAlt={"Troféu do mundial interclubes 2012"} 
+           titulo={"Mundial de clubes FIFA"} 
+           />
+
+           <Card ano={2012} capa= {"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"}
+           detalhes={"Corinthians 2x0 Boca juniors"}
+           textAlt={"Trofeu copa libertadores da america 2012"}
+           titulo={"Copa libertadres américa"}
+           />
+
+           <Card ano = {2000} capa={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"}
+           detalhes={"Corinthians 0(4) x 0(3) Vasco"} 
+           textAlt={"Trofeu copa libertadores da america 2000"}
+           titulo={"Mundial de clubes da FIFA"} 
+           />
             <div className={styles.trophy}>
               <div className={styles.trophyCover}>
                 <img

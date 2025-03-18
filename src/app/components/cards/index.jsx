@@ -9,11 +9,12 @@ const Card = ({capa, textAlt, titulo, ano, detalhes}) => {
             src= {capa}
             alt={textAlt}
           />
+          
         </div>
         <div className={styles.trophyInfo}>
           <h3>{titulo}</h3>
-          <p className={styles.year}>2012</p>
-          <p className={styles.details}>Corinthians 1 x 0 Chelsea</p>
+          <p className={styles.year}>{ano}</p>
+          <p className={styles.details}>{detalhes}</p>
           <button className={styles.detailsButton}>Ver Detalhes</button>
         </div>
       </div>
